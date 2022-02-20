@@ -61,64 +61,17 @@ function App() {
       "auction_fee": auction_fee,
       "par_value": par_value
 })
-    // var error = document.getElementById("debit")
-    // error.value = my_req
-    // error.style.color = "red"
+
     if (flag === 0)
     {
       xhr.send(my_req);
     }
 
-
-// const Url='http://127.0.0.1:5000/addevent';
-// const data={
-//   "code": event_code,
-//   "portfolio": portfolio,
-//   "instrument": instrument,
-//   "date": date,
-//   "price": price,
-//   "number": number,
-//   "debit": debit,
-//   "credit": credit,
-//   "cap_rise_ratio": cap_rise_ratio,
-//   "right_ratio": right_ratio,
-//   "profit": profit,
-//   "auction_fee": auction_fee,
-//   "par_value": par_value
-// }
-// $.post
-
-//     xhr.send(JSON.stringify({
-//       "code": event_code,
-//       "portfolio": portfolio,
-//       "instrument": instrument,
-//       "date": date,
-//       "price": price,
-//       "number": number,
-//       "debit": debit,
-//       "credit": credit,
-//       "cap_rise_ratio": cap_rise_ratio,
-//       "right_ratio": right_ratio,
-//       "profit": profit,
-//       "auction_fee": auction_fee,
-//       "par_value": par_value
-// }));
-    // var error = document.getElementById("debit")
-    // error.value = reqbody
-    // error.style.color = "red"
-    // return(reqbody);
-    // alert(reqbody)
     if (flag === 0)
     {
       alert('Form is submitted. Go check the databaseee!')
     }
   }
-
-  const handleFileSubmit = event => {
-    
-  }
-
-
 
   return (
     <div className="App">
