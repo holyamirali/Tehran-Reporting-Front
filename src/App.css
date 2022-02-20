@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+.mApp1 {
+  display: flex;
+  justify-content: center;
+}
+
+.mApp2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 50px; 
+}
+
+.col1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 50px;  
+}
+
+.col2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+
+.App fieldset {
+  margin: 2px 0;
+}
